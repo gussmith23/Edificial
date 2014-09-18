@@ -1,0 +1,13 @@
+name: Edificial
+version: 0.1
+author: Gus
+main: com.gus.edificial.EdificialPlugin
+
+commands:
+  ed:
+    permission: edificial.ed
+    usage: /ed [args]
+    
+permissions:
+  edificial.ed:
+    default: op
